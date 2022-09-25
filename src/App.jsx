@@ -7,7 +7,7 @@ import CreateArea from "./CreateArea";
 
 function App() {
 
-  conat [notes, setNotes] = useState([]);
+  const [notes, setNotes] = useState([]);
 
   function addNote(newNote){
     setNotes(prevNotes => {
